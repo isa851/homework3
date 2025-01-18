@@ -6,7 +6,7 @@ const Btn = () => {
     return (
         <div>
             <button onClick={()=>{
-                dispatch(addCar({model: 'Nissan GTR R35', year: 2015}))
+                dispatch(addCar({model: 'Matiz', year: 2015}))
             }}>add car</button>
         </div>
     );
